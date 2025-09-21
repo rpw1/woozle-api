@@ -7,6 +7,21 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+# Local Secrets
+settings.local.json
+ssl/
+*.pem
+*.crt
+appsettings.*.json
+
+# Visual Studio
+**/.vs/
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -22,6 +37,42 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.scc
+
+# Others
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+modulesbin/
+tempbin/
 
 # .NET Core
 project.lock.json
